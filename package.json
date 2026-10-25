@@ -1,0 +1,16 @@
+{
+  "name": "mcd-mcp-inspector",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A read-only diagnostic utility for McDonald's China MCP server.",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "test": "node --experimental-strip-types --test",
+    "demo": "node --experimental-strip-types src/demo.ts"
+  }
+}
+
