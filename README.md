@@ -67,22 +67,6 @@ Nutrition Records 优先统计 JSON 记录数组，也识别麦当劳营养接�
 └── demo/report.html
 ```
 
-## 隐私与安全边界
-
-- 仅连接 `https://mcp.mcd.cn`，并使用官方要求的 Bearer Token。
-- `tools/call` 通过硬编码 allowlist；即使工具列表包含写操作，也不会调用它们。
-- `query-my-account` 响应只在内存中用于判定成功，不会保留原始响应。
-- 报告只保存安全工具的截断原始预览；页面内容均经过 HTML 转义。
-- 工具调用串行执行。遇到认证失败、限流或服务错误时，报告会显示对应问题。
-
-## 比赛提交提醒
-
-官方活动规则要求公开 GitHub 仓库、`README.md`、未改动的 `CONTEST_DECLARATION.md`、`MCP_INTEGRATION.md` 和 `mcp-config.example.json`；同时要求项目真实使用麦当劳 MCP。首次真实运行需要你自己的 MCP Token。参赛 Issue 的提交时间和格式也要按官方活动仓库当前规则核对。
-
-## Live verification
-
-2026-10-25 实测官方线上 MCP 服务：握手成功、`tools/list` 发现 35 个工具，四个只读 smoke tests 均成功；营养接口返回的 `[160]{...}:` 格式识别为 160 条记录，健康分 100/100。账户查询的个人内容未输出或保存。此结果是该次运行的快照，不代表之后服务状态。
-
 ## 官方参考
 
 - [麦当劳 MCP 文档](https://open.mcd.cn/mcp/doc)
