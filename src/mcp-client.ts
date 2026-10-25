@@ -167,4 +167,3 @@ async function readRpcEnvelope(response: Response): Promise<RpcEnvelope> {
     throw new Error('MCP returned an invalid JSON response');
   }
 }
-

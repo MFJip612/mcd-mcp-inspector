@@ -101,4 +101,3 @@ function escapeHtml(value: string): string {
     "'": '&#39;'
   })[character] as string);
 }
-

@@ -41,4 +41,3 @@ const report: DiagnosticReport = await runDiagnostics('offline-demo-token', {
 const output = fileURLToPath(new URL('../demo/report.html', import.meta.url));
 await writeReport(report, output);
 console.log(`Wrote offline sample report: ${output}`);
-

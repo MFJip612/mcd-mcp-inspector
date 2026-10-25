@@ -41,4 +41,3 @@ if (!token) {
     process.exitCode = 1;
   }
 }
-

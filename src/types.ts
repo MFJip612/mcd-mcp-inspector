@@ -39,4 +39,3 @@ export interface DiagnosticReport {
   nutritionRecords: number | null;
   issues: string[];
 }
-

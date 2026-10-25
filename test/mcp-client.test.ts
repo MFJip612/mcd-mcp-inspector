@@ -68,4 +68,3 @@ test('sends the negotiated protocol version on stateless requests after initiali
   await client.callTool('now-time-info');
   assert.equal(headersSeen[2].get('mcp-protocol-version'), '2025-03-26');
 });
-

@@ -59,4 +59,3 @@ test('never includes raw account data in the report', () => {
   assert.ok(!html.includes('private-person'));
   assert.ok(html.includes('redacted'));
 });
-

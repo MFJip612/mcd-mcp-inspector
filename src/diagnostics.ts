@@ -211,4 +211,3 @@ function safeMessage(error: unknown, token = ''): string {
   const raw = error instanceof Error ? error.message : String(error);
   return redact(raw, token).slice(0, 240);
 }
-

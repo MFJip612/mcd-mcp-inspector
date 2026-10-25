@@ -88,4 +88,3 @@ Nutrition Records 优先统计 JSON 记录数组，也识别麦当劳营养接�
 - [麦当劳 MCP 文档](https://open.mcd.cn/mcp/doc)
 - [麦当劳 MCP Server 官方接入指南](https://github.com/M-China/mcd-mcp-server)
 - [麦当劳程序员创意开发大赛](https://github.com/M-China/mcd-developer-innovation-challenge)
-

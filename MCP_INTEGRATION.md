@@ -36,4 +36,3 @@ No other `tools/call` request is possible through `McpClient.callTool`. Discover
 ## Verified limits
 
 The repository contains offline tests for the allowlist, request envelope, nutrition count extraction, score, HTML escaping and account-data redaction. These tests do not replace an online run with a user-issued token. The official server's current response shape and live connectivity must be confirmed by running the CLI with that token.
-

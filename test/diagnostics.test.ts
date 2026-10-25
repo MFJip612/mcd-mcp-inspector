@@ -63,4 +63,3 @@ test('runs only the allowlisted calls and hides account error details', async ()
   assert.ok(!JSON.stringify(report).includes('private-account-details-should-not-leak'));
   assert.equal(report.smokeTests[3].summary, 'Account query failed; details hidden for privacy.');
 });
-

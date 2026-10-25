@@ -22,4 +22,3 @@ Use this utility when a developer wants to verify that their McDonald's China MC
 From the project directory, execute `node --experimental-strip-types src/index.ts` with `MCD_MCP_TOKEN` already set in the process environment. The program prints a short diagnosis and writes `report.html` in the current directory.
 
 For a no-network presentation, run `node --experimental-strip-types src/demo.ts`. The generated report is fictional sample data and must not be described as a live MCP check.
-

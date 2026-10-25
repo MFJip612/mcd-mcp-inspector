@@ -13,4 +13,3 @@
     "demo": "node --experimental-strip-types src/demo.ts"
   }
 }
-
